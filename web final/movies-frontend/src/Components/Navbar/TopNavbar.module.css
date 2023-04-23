@@ -1,0 +1,225 @@
+.IconArea {
+  display: flex;
+  align-items: center;
+}
+
+.bellIco {
+  width: 25px;
+  height: 25px;
+  fill: white;
+  margin-right: 15px !important;
+}
+
+.canvusBody {
+  justify-content: flex-end;
+}
+
+.crewText {
+  color: white !important;
+  font-weight: 16px !important;
+}
+
+.mainInner {
+  padding-right: 86px !important;
+  padding-left: 30px !important;
+  flex-wrap: nowrap !important;
+}
+
+.cliImag {
+  padding: 10px;
+}
+
+.navImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.navMain {
+  padding: 0 40px;
+
+}
+
+.lowerSection {
+  display: flex;
+  padding: 40px;
+}
+
+.blueSec {
+  height: 70px;
+  border-radius: 13px;
+  background-color: #154c79;
+  align-items: center;
+  padding: 0 40px 0 25px !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.recomdArea {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .cliImag {
+    padding: 0;
+  }
+
+  .navImg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .blueSec {
+    height: 53px;
+    padding: 0 20px 0 20px !important;
+  }
+
+  .mainInner {
+    padding-right: 45px !important;
+    padding-left: 30px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .blueSec {
+    position: relative;
+  }
+
+  .crewText {
+    position: absolute;
+    left: 13px;
+    top: 28%;
+  }
+
+  .togleCss {
+    position: absolute;
+    right: 12px;
+    top: 13px;
+    border: none !important;
+  }
+
+  .togleCss:focus {
+    box-shadow: none !important;
+  }
+
+  .line11 {
+    width: 18px;
+    margin-bottom: 3px;
+    background-color: white;
+    border-radius: 2px;
+    height: 4px;
+  }
+
+  .line22 {
+    width: 26px;
+    margin-bottom: 3px;
+    background-color: white;
+    border-radius: 2px;
+    height: 4px;
+  }
+
+  .line33 {
+    width: 10px;
+    margin-bottom: 0;
+    background-color: white;
+    border-radius: 2px;
+    height: 4px;
+  }
+
+  .navMain {
+    padding: 0;
+    
+  }
+
+  .canvusBody {
+    background-color: #154c79;
+  }
+
+  .recomdArea {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .deshBoard {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    /* margin-top: 20px; */
+  }
+
+  .dashHeading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+    color: white;
+  }
+
+  .line1 {
+    width: 18px;
+    margin-bottom: 2px;
+    background-color: white;
+    border-radius: 2px;
+    height: 3px;
+  }
+
+  .line2 {
+    width: 26px;
+    margin-bottom: 2px;
+    background-color: white;
+    border-radius: 2px;
+    height: 3px;
+  }
+
+  .carryIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f6dfa4;
+    border-radius: 6px;
+  }
+
+  .carryIconsInner {
+    font-size: 30px;
+    fill: white;
+  }
+
+  .movieIcon {
+    display: flex;
+    /* justify-content: center; */
+    /* gap: ; */
+    align-items: center;
+    width: auto;
+    /* height: 40px; */
+    border-radius: 6px;
+  }
+
+  .IconArea {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navImg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .mainInner {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .blueSec {
+    padding: 0 10px 0 10px !important;
+  }
+
+  .bellIco {
+    margin-right: 10px !important;
+  }
+}

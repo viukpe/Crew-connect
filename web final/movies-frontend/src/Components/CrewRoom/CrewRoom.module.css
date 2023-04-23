@@ -1,0 +1,250 @@
+.lowerSection {
+    display: flex;
+    padding: 0 30px;
+    margin-bottom: 80px;
+}
+
+
+
+.projectsArea {
+    display: flex;
+    flex-direction: column;
+    padding-left: 38px;
+    /* padding-top: 10px; */
+    width: 100%;
+}
+
+
+.inputArea {
+    width: 60%;
+    position: relative;
+    margin-left: 8px;
+}
+
+
+.topInput {
+    width: 100%;
+    height: 30px;
+    padding: 0 30px 0 10px;
+    background-color: #c4c3c4;
+    border: none;
+    border-radius: 13px;
+    outline: none;
+}
+
+
+.iconBack {
+    width: 30px;
+    height: 30px;
+    background-color: #5b889d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.searchIcon {
+    font-size: 15px;
+    fill: #0f171a;
+}
+
+
+.titleArea {
+    background-color: #154c79;
+    height: 50px;
+    padding-left: 15%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.cardsOuter {
+    width: 95%;
+    min-height: 467px;
+    background-color: #e8e4e5;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ 
+}
+
+.cardsInner {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #decccd;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #e8e4e4;
+    padding: 5px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+
+.cardIMAGE {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.cardDetail {
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+
+.goto {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.gotoText {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.gotoIconAREA {
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    
+}
+
+.arrowri {
+    font-size: 20px;
+    fill: #fefeff;
+}
+
+
+.cardinn{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.titleOuter{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.creatButton{
+    margin-left: 15px;
+    border: none;
+    padding: 7px 13px;
+    background-color: #154c79;
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 8px ;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.footercontent{
+    justify-content: flex-start !important;
+}
+
+
+@media (max-width:992px) {
+
+    .projectsArea {
+        padding-left: 30px;
+    }
+
+}
+
+
+
+@media (max-width:680px) {
+
+    .titleArea{
+        padding-left: 4%;
+    width: 62%;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:575px) {
+
+
+    .lowerSection {
+        padding: 0 15px;
+    }
+
+    .navbarDiv {
+        display: none;
+    }
+
+    .projectsArea {
+        padding-left: 0;
+    }
+
+.titleOuter{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.creatButton{
+    font-size: 15px;
+    height: 40px;
+    margin-left: 0;
+    margin-top: 10px;
+  
+}
+
+.titleArea{
+    height: 40px;
+}
+
+.titleArea{
+    width: 85%;
+}
+
+
+.cardsOuter{
+    width: 100%;
+}
+
+
+}

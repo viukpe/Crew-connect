@@ -1,0 +1,173 @@
+.lowerSection {
+  display: flex;
+  padding: 0 30px;
+  margin-bottom: 80px;
+}
+
+.projectsArea {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  /* padding-top: 20px; */
+  width: 100%;
+}
+
+.newCrew {
+  display: flex;
+}
+
+.crewCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddcccc;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+}
+
+.ardHeading {
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.iconplus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: 30px;
+}
+
+.plusIcon {
+  font-size: 20px;
+  fill: #ddcccc;
+}
+
+.plusIcon1 {
+  font-size: 15px;
+  fill: #ddcccc;
+}
+
+.recentsArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.recentsHead {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.recentsCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 90%;
+}
+
+.recentCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddcccc;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 240px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.nameInput {
+  padding: 8px;
+  border-radius: 7px;
+  outline: none;
+  width: 300px;
+  border: none;
+}
+
+.multiSlect {
+  border-radius: 7px;
+  outline: none;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.modalMian {
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .crewCard {
+    width: 250px;
+    height: 210px;
+  }
+
+  .recentCard {
+    width: 240px;
+    height: 200px;
+  }
+
+  .projectsArea {
+    padding-left: 30px;
+  }
+
+  .recentsCards {
+    width: 100%;
+    max-width: unset;
+  }
+}
+
+@media (max-width: 689px) {
+  .recentsCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recentCard {
+    margin-right: 0;
+  }
+
+  .newCrew {
+    justify-content: center;
+  }
+
+  .modalMian {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .multiSlect {
+    margin-left: 0;
+
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbarDiv {
+    display: none;
+  }
+
+  .projectsArea {
+    padding-left: 0;
+  }
+
+  .lowerSection {
+    padding: 0 15px;
+  }
+
+  .nameInput {
+    width: 250px;
+  }
+
+  .multiSlect {
+    width: 250px;
+  }
+}

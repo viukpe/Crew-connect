@@ -1,0 +1,59 @@
+.rightCardSearchMovi{
+    width: 100%;
+}
+
+.rightCardSearchInnerMovi{
+    width: 95%;
+
+}
+
+.topRatingRow{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ratingTitle{
+    font-size: 25px;
+    color:#000;
+    font-weight: 600;
+}
+
+.averageTxt{
+    font-size: 18px;
+    color:#000;
+    font-weight: 600;
+}
+
+.mainRating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.topRowsRating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pageInfoMovi{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    
+  }
+.cardSearchActor{
+    flex-direction: column;
+}
+.cardSearchActor{
+    width: 90%;
+}
+@media (max-width:600px) {
+    .averageTxt {
+        font-size: 14px;
+    }
+    
+}
