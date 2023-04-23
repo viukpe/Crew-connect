@@ -20,9 +20,9 @@ Crew Connect is an online social collaboration site that makes it easy for film 
 
 
 ## Screenshots
-<img width="1411" alt="Screen Shot 2023-04-23 at 5 00 32 PM" src="https://user-images.githubusercontent.com/72221782/233861240-8114c666-5fe4-4821-b54f-28d282594e6b.png">
-<img width="1420" alt="Screen Shot 2023-04-23 at 5 01 22 PM" src="https://user-images.githubusercontent.com/72221782/233861249-eb4e031f-e594-460f-b860-11bd2cd970a5.png">
-<img width="1413" alt="Screen Shot 2023-04-23 at 5 01 38 PM" src="https://user-images.githubusercontent.com/72221782/233861270-09dc26f6-2d07-4b56-8302-3be75e17b82e.png">
+<img width="668" alt="Screen Shot 2023-04-23 at 5 00 32 PM" src="https://user-images.githubusercontent.com/72221782/233861240-8114c666-5fe4-4821-b54f-28d282594e6b.png">
+<img width="668" alt="Screen Shot 2023-04-23 at 5 01 22 PM" src="https://user-images.githubusercontent.com/72221782/233861249-eb4e031f-e594-460f-b860-11bd2cd970a5.png">
+<img width="668" alt="Screen Shot 2023-04-23 at 5 01 38 PM" src="https://user-images.githubusercontent.com/72221782/233861270-09dc26f6-2d07-4b56-8302-3be75e17b82e.png">
 
 
 
