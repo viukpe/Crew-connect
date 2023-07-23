@@ -1,4 +1,4 @@
-# Crew-connect - Online Social Collaboration for Film Makers
+# Crew Connect - Online Social Collaboration for Film Makers
 
 Crew-connect is an innovative online social collaboration site designed to simplify the process of finding film crew members and accessing valuable information about their past film projects. Whether you are a filmmaker looking to build your team or a crew member searching for exciting projects to be a part of, Crew-connect is here to streamline the connection process.
 
